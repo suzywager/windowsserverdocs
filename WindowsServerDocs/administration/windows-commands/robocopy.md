@@ -84,7 +84,7 @@ robocopy <Source> <Destination> [<File>[ ...]] [<Options>]
 |/xa:[RASHCNETO]|Excludes files for which any of the specified attributes are set.|
 |/xf \<FileName>[ ...]|Excludes files that match the specified names or paths. Note that *FileName* can include wildcard characters (**&#42;** and **?**).|
 |/xd \<Directory>[ ...]|Excludes directories that match the specified names and paths.|
-|/xct|Excludes changed files.|
+|/xc|Excludes changed files.|
 |/xn|Excludes newer files.|
 |/xo|Excludes older files.|
 |/xx|Excludes extra files and directories.|
